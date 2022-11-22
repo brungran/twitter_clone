@@ -18,7 +18,7 @@
         </main>
         
         <!-- Right sidebar -->
-        <div class="hidden col-span-12 md:block md:col-span-3 xl-col-span-4">
+        <div class="hidden col-span-12 md:block md:col-span-3 xl:col-span-4">
           <div class="sticky top-0">
             <SidebarRight />
           </div>

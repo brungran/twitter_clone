@@ -15,6 +15,7 @@
         <SidebarRightPreviewCard title="Who to Follow">
             <SidebarRightPreviewCardItem v-for="whoTofollowItem in whoToFollowItems">
                 <div class="flex flex-row items-center justify-between p-2">
+                    
                     <div class="flex flex-row">
                         <img :src="whoTofollowItem.picture.thumbnail" :alt="whoTofollowItem.login.username" class="w-10 h-10 rounded-full">
 
