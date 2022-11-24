@@ -12,3 +12,14 @@ services:
         - "3000:3000"
         - "24678:24678"
       command: "npm run dev"
+    mongo:
+      image: mongo:latest
+      container_name: "mongo"
+      working_dir: "/data/db"
+      environment:
+        MONGO_INITDB_ROOT_USERNAME: root
+        MONGO_INITDB_ROOT_PASSWORD: root
+      volumes:
+      - ./db:/data/db
+      ports:
+        - "27017:27017"
